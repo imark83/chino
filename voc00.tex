@@ -1,0 +1,70 @@
+% This is the file `arphic-sampler.tex' which shows the shapes
+% of the Arphic fonts for simplified and traditional Chinese.
+%
+% written by Werner Lemberg <wl@gnu.org> 17-Jul-2005
+
+\documentclass[13pt]{article}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{multicol}
+\usepackage[T1]{CJKutf8}
+\usepackage[overlap, CJK]{ruby}
+\usepackage{pinyin}
+\usepackage{setspace}
+\renewcommand{\baselinestretch}{1.5}
+
+\pagestyle{empty}
+
+
+\begin{document}
+\rubylatin
+\renewcommand{\rubysep}{-1.2ex}
+\renewcommand{\rubysize}{0.5}
+
+\begin{CJK*}{UTF8}{}
+\begin{multicols}{2}
+% \CJKtilde
+\LARGE
+\CJKfamily{gkai}
+\noindent
+\ruby{买}{mǎi}\quad comprar\\
+\ruby{吃}{chī}\quad comer\\
+\ruby{炒}{chǎo}\quad saltear\\
+\ruby{看}{kàn}\quad mirar, leer, ver\\
+\ruby{学习}{xuéxí}\quad estudiar\\
+\ruby{洗澡}{xǐzǎo}\quad ducharse\\
+\ruby{睡觉}{shuìjiào}\quad dormir\\
+\ruby{做}{zuò}\quad hacer\\
+\ruby{回}{huí}\quad volver\\
+\ruby{会}{huì}\quad saber\\
+\ruby{听}{tīng}\quad escuchar\\
+\ruby{土豆}{tǔdòu}\quad patata\\
+\ruby{胡萝卜}{húluóbo}\quad zanahoria\\
+\ruby{洋葱}{yángcōng}\quad cebolla\\
+\ruby{青椒}{qīngjiāo}\quad pimiento verde\\
+\ruby{西红柿}{xīhóngshì}\quad tomate\\
+\ruby{苹果}{píngguǒ}\quad manzana\\
+\ruby{梨}{lí}\quad pera\\
+\ruby{香蕉}{xiāngjiāo}\quad plátano\\
+\ruby{橙子}{chéngzi}\quad naranja\\
+\ruby{柑}{gān}\quad mandarina\\
+\ruby{四季豆}{sìjìdòu}\quad judía verde\\
+\ruby{菜花}{càihuā}\quad coliflor\\
+\ruby{菠菜}{bōcài}\quad espinaca\\
+\ruby{鱼}{yú}\quad pescado, pez\\
+\ruby{猪肉}{zhūròu}\quad carne de cerdo\\
+\ruby{牛肉}{niúròu}\quad carne de ternera\\
+\ruby{鸡肉}{jīròu}\quad carne de pollo\\
+\ruby{羊肉}{yángròu}\quad carne de cordero\\
+
+
+\end{multicols}
+\end{CJK*}
+
+\end{document}
+
+
+%%% Local Variables:
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
